@@ -1,3 +1,5 @@
+//By Kevin Le - http://stackoverflow.com/users/1244013/khnle
+
 angular.module('ui.bootstrap.progresscircle', [])
 
 .constant('progressConfig', {
@@ -9,7 +11,7 @@ angular.module('ui.bootstrap.progresscircle', [])
   innerCircleRadius: 70,
   labelFont: '30pt Calibri',
   outerCircleBackgroundColor: '#d9d9d9', //#505769',
-  outerCircleForegroundColor: '428bca', //#5cb85c',
+  outerCircleForegroundColor: '#428bca', //#5cb85c',
   innerCircleColor: '#d9d9d9',
   labelColor: '#428bca', //'#12eeb9'
   percentFormat: false,
