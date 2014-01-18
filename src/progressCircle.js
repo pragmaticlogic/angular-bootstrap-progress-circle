@@ -1,4 +1,5 @@
 //By Kevin Le - http://stackoverflow.com/users/1244013/khnle
+//v1.0
 
 angular.module('ui.bootstrap.progresscircle', [])
 
@@ -10,10 +11,10 @@ angular.module('ui.bootstrap.progresscircle', [])
   outerCircleRadius: 100,
   innerCircleRadius: 70,
   labelFont: '30pt Calibri',
-  outerCircleBackgroundColor: '#d9d9d9', //#505769',
-  outerCircleForegroundColor: '#428bca', //#5cb85c',
+  outerCircleBackgroundColor: '#d9d9d9',
+  outerCircleForegroundColor: '#428bca',
   innerCircleColor: '#d9d9d9',
-  labelColor: '#428bca', //'#12eeb9'
+  labelColor: '#428bca',
   percentFormat: false,
   displayPercentSign: true,
   max: 60,
@@ -21,7 +22,7 @@ angular.module('ui.bootstrap.progresscircle', [])
 })
 
 .controller('ProgressCircleController', ['$scope', '$attrs', '$timeout', 'progressConfig', function($scope, $attrs, $timeout, progressConfig) {
-  
+//just a place holder for now  
 }])
 
 .directive('progressCircle', ['$parse', 'progressConfig', function(parse, progressConfig) {
